@@ -12,6 +12,9 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
 html, body, [class*="css"], .stApp { font-family: 'IBM Plex Sans', sans-serif; }
 .stApp { background: #F3F6F8; color: #12263A; }
+.stApp label, .stApp label p, .stApp [data-testid="stWidgetLabel"] p { color: #12263A !important; }
+.stApp div[data-baseweb="select"] > div { background: #fff; color: #12263A; }
+.stApp div[role="radiogroup"] p { color: #12263A !important; }
 #MainMenu, footer, header { visibility: hidden; }
 .hero { background: #12263A; color: #fff; border-radius: 14px; padding: 28px 28px 8px; margin-bottom: 22px; }
 .hero h1 { margin: 0 0 6px; font-size: 2rem; font-weight: 700; color: #fff; }
